@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Lounge Barbershop - Premium Grooming Services</title>
+    <meta name="description" content="Golden Lounge is a premium barbershop offering high-end grooming services with a luxury experience.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="assets/logo.svg" alt="Golden Lounge Barbershop">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <h1>Premium Grooming <span>Experience</span></h1>
+            <p>Where style meets exceptional service</p>
+            <a href="#appointment" class="btn">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span>Services</span></h2>
+                <p>Exceptional grooming services tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Classic Haircut</h3>
+                    <p>Precision cut with expert styling to suit your face shape and preference.</p>
+                    <span class="price">$35</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-beard"></i>
+                    </div>
+                    <h3>Beard Trim</h3>
+                    <p>Meticulous shaping and trimming for a perfectly groomed beard.</p>
+                    <span class="price">$25</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Hot Towel Shave</h3>
+                    <p>Luxurious traditional straight razor shave with hot towel treatment.</p>
+                    <span class="price">$40</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Premium Package</h3>
+                    <p>Complete grooming package including haircut, beard trim, and facial treatment.</p>
+                    <span class="price">$85</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Hair Coloring</h3>
+                    <p>Professional coloring services using premium products for vibrant, lasting results.</p>
+                    <span class="price">$65</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Scalp Treatment</h3>
+                    <p>Revitalizing scalp therapy to promote hair health and strength.</p>
+                    <span class="price">$45</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Style <span>Gallery</span></h2>
+                <p>Showcasing our finest work and barbershop ambiance</p>
+            </div>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="haircuts">Haircuts</button>
+                <button class="filter-btn" data-filter="beards">Beards</button>
+                <button class="filter-btn" data-filter="shop">Our Shop</button>
+            </div>
+            <div class="gallery-grid">
+                <!-- Gallery items will be dynamically populated via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header left-align">
+                        <h2>About <span>Golden Lounge</span></h2>
+                    </div>
+                    <p>Founded in 2010, Golden Lounge has established itself as the premier destination for men seeking exceptional grooming services in a sophisticated environment.</p>
+                    <p>Our master barbers combine traditional techniques with modern styling to deliver an unparalleled grooming experience. We believe that every client deserves personalized attention and a service that not only meets but exceeds their expectations.</p>
+                    <p>At Golden Lounge, we don't just offer haircuts – we provide a complete transformation in an atmosphere of luxury and comfort. Every visit is an opportunity to relax, refresh, and emerge looking and feeling your absolute best.</p>
+                    <div class="about-values">
+                        <div class="value">
+                            <i class="fas fa-award"></i>
+                            <h3>Excellence</h3>
+                            <p>Committed to the highest standards in every aspect of our service.</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-hands"></i>
+                            <h3>Craftsmanship</h3>
+                            <p>Meticulous attention to detail in every cut and treatment.</p>
+                        </div>
+                        <div class="value">
+                            <i class="fas fa-user-tie"></i>
+                            <h3>Professionalism</h3>
+                            <p>Courteous, knowledgeable staff dedicated to your satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your <span>Appointment</span></h2>
+                <p>Reserve your spot for a premium grooming experience</p>
+            </div>
+            <div class="appointment-form-container">
+                <form id="appointment-form" class="appointment-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="haircut">Classic Haircut</option>
+                            <option value="beard-trim">Beard Trim</option>
+                            <option value="hot-towel">Hot Towel Shave</option>
+                            <option value="premium">Premium Package</option>
+                            <option value="coloring">Hair Coloring</option>
+                            <option value="scalp">Scalp Treatment</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="notes">Special Requests</label>
+                        <textarea id="notes" name="notes" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn full-width">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in <span>Touch</span></h2>
+                <p>Visit us or reach out through any of our channels</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Luxury Avenue, Styleville, SV 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@goldenlounge.com</p>
+                        </div>
+                    </div>
+                    <div class="hours">
+                        <h3>Business Hours</h3>
+                        <ul>
+                            <li><span>Monday - Friday:</span> 9:00 AM - 8:00 PM</li>
+                            <li><span>Saturday:</span> 10:00 AM - 6:00 PM</li>
+                            <li><span>Sunday:</span> 11:00 AM - 4:00 PM</li>
+                        </ul>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2989.7168847073906!2d-73.98601372343546!3d40.74844897138946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjQiTiA3M8KwNTknMDkuNyJX!5e0!3m2!1sen!2sus!4v1621523172555!5m2!1sen!2sus"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.svg" alt="Golden Lounge Barbershop">
+                    <p>Premium grooming experience since 2010</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for deals and style tips</p>
+                    <form id="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Golden Lounge Barbershop. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Confirmation Modal -->
+    <div class="modal" id="confirmation-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <i class="fas fa-check-circle"></i>
+            <h3>Appointment Request Received</h3>
+            <p>Thank you for booking with Golden Lounge. We will confirm your appointment shortly via email or phone.</p>
+            <button class="btn modal-close-btn">Close</button>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

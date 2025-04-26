@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A1A;stop-opacity:1" />
+    </linearGradient>
+    <filter id="noise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="2" result="noise" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.05 0" />
+      <feBlend mode="overlay" in="SourceGraphic" in2="noise" result="noisy" />
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGradient)" filter="url(#noise)" />
+  <g opacity="0.1">
+    <path fill="#D4AF37" d="M0,240 L1920,480 L1920,540 L0,300 Z" />
+    <path fill="#D4AF37" d="M0,720 L1920,960 L1920,1020 L0,780 Z" />
+  </g>
+  <g fill="#D4AF37" opacity="0.05">
+    <circle cx="240" cy="240" r="120" />
+    <circle cx="1680" cy="840" r="120" />
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <style>
+    .text { font-family: 'Playfair Display', serif; }
+    .gold { fill: #D4AF37; }
+    .white { fill: #FFFFFF; }
+  </style>
+  <rect width="300" height="80" fill="none"/>
+  <path class="gold" d="M50,10 C28.95,10 12,26.95 12,48 C12,69.05 28.95,86 50,86 C71.05,86 88,69.05 88,48 C88,26.95 71.05,10 50,10 Z M50,78 C33.43,78 20,64.57 20,48 C20,31.43 33.43,18 50,18 C66.57,18 80,31.43 80,48 C80,64.57 66.57,78 50,78 Z" transform="translate(0, -8)"/>
+  <path class="gold" d="M50,28 C38.95,28 30,36.95 30,48 C30,59.05 38.95,68 50,68 C61.05,68 70,59.05 70,48 C70,36.95 61.05,28 50,28 Z M50,60 C43.37,60 38,54.63 38,48 C38,41.37 43.37,36 50,36 C56.63,36 62,41.37 62,48 C62,54.63 56.63,60 50,60 Z" transform="translate(0, -8)"/>
+  <text x="100" y="38" class="text gold" font-size="26" font-weight="bold">GOLDEN</text>
+  <text x="100" y="62" class="text white" font-size="22">LOUNGE</text>
+  <text x="235" y="62" class="text gold" font-size="12">SINCE 2010</text>
+</svg>
